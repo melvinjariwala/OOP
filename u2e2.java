@@ -6,7 +6,7 @@
 import java.util.Scanner;
 class u2e2{
 	public static void main(String args[]){
-		int marks, total = 0, result;
+		int marks, total = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter marks out of 100 : \n");
 		do{
