@@ -4,13 +4,13 @@ class tenth{
 		int[] a = new int[10];
 		Scanner sc = new Scanner(System.in);
 		for(int i = 0; i < a.length; i++){
-			System.out.println("Enter Number-" + (i+1));
+			System.out.print("Enter Number-" + (i+1) + " : ");
 			a[i] = sc.nextInt();
 		}
 		System.out.println("Before : ");
 		printArray(a);
 		a = reverse(a);
-		System.out.println("After : ");
+		System.out.println("\nAfter : ");
 		printArray(a);
 	}
 	static int[] reverse(int[] a){
@@ -22,7 +22,8 @@ class tenth{
 	}
 	static void printArray(int[] a){
 		for(int i : a){
-			System.out.println(i);
+			System.out.print(i + "\t");
 		}
+		System.out.println();
 	}
 }

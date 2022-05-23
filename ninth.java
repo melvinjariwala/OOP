@@ -17,7 +17,6 @@ class ninth{
 				val = i;			
 			}
 		}
-		//System.out.println("GCD = " + val);
 		return val;
 	}
 }
